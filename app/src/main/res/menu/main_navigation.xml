@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/nav_belajar"
+            android:icon="@drawable/ic_view_day_24dp"
+            android:title="Batik" />
+
+    <item
+
+            android:id="@+id/nav_more"
+            android:icon="@drawable/ic_more_horiz_24dp"
+            android:title="Tentang" />
+
+
+</menu>

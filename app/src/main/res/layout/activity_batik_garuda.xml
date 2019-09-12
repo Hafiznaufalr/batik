@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".batiks.BatikGaruda">
+
+    <RelativeLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+
+
+        <TextView
+                android:id="@+id/welcome"
+                android:drawableStart="@drawable/ic_arrow_back"
+                android:drawableLeft="@drawable/ic_arrow_back"
+                android:drawablePadding="12dp"
+                android:onClick="back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batik Garuda"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp" tools:ignore="RtlSymmetry"
+        />
+        <ImageView android:layout_width="150dp"
+                   android:layout_height="150dp"
+                   android:layout_alignParentRight="true"
+                   android:id="@+id/circle"
+                   android:background="@drawable/circle_orange"
+                   android:layout_alignParentEnd="true"/>
+
+        <ImageView
+                android:id="@+id/gambar_krama"
+                android:layout_marginTop="40dp"
+                android:layout_below="@id/welcome"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/batik4"
+                android:layout_width="352dp"
+                android:layout_height="200dp"/>
+        <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="5sp"
+                android:layout_below="@id/gambar_krama"
+                android:id="@+id/contoh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Deskripsi"
+                android:textColor="@color/colorPrimary"
+
+                />
+        <TextView
+                android:layout_margin="15dp"
+                android:lineSpacingExtra="5sp"
+                android:layout_below="@id/contoh1"
+                android:id="@+id/krama_lugu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/garuda1"
+                android:justificationMode="inter_word"
+                android:textColor="#332c2b"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>
